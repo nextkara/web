@@ -10,8 +10,37 @@ div.button {
     
 }
 
+div.header {
+    height: 8%;
+    background-color: #333333;
+}
+
 div.left_side {
-    width: 170px;
+    width: 8%;
+    height: 90%;
     float: left;
     background-color: #333333;
 }
+
+div.right_side {
+    float: right;
+    width: 91%;
+    height: 90%;
+    background-color: whitesmoke;
+}
+
+div.center_button {
+    float: center;
+    width: 2%;
+    height: 90;
+    background-color: black;
+}
+
+th.simple {
+    border-top: none;
+    border-left: none;
+    color: #85828b;
+    font-size: 12px;
+    padding: 5px 10px;    
+}
+
